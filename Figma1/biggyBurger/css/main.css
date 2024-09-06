@@ -1,0 +1,100 @@
+body {
+    background: linear-gradient(225deg, #A54343 0%, #E73535 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 1110px;
+    height: 100vh;
+    background-color: linear-gradient(225deg, #A54343 0%, #E73535 100%) !important;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.info {
+    width: 555px;
+    height: 650px;
+    flex-direction: column;
+    display: flex;
+    gap: 22px;
+    margin-top: 13px;
+    margin-left: 400px;
+
+    h1 {
+        width: 517px;
+        height: 254px;
+        font-family: "Montserrat";
+        font-size: 140px;
+        font-weight: 700;
+        line-height: 127px;
+        letter-spacing: -1.5750000476837158px;
+        text-align: left;
+        color: #fff;
+    }
+
+    p {
+        width: 517px;
+        height: 101px;
+        font-family: Montserrat;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 34px;
+        text-align: left;
+        color: #fff;
+
+    }
+
+    img {
+        width: 299px;
+        height: 98px;
+        align-self: flex-start;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    .fst {
+        width: 135px;
+        height: auto;
+        display: flex; 
+        align-items: center; 
+    }
+    
+    .truck-icon {
+        width: 135px;
+        height: 45px;
+        margin-right: 10px; 
+    }
+    
+    .fst {
+        display: flex;
+        flex-direction: column; 
+        justify-content: center; 
+    }
+    
+    .fst p {
+        margin: 0;
+        font-size: 14px; 
+    }
+    
+
+
+
+
+
+
+
+    .burger {
+        width: 1000px;
+        height: 800px;
+        display: flex;
+        align-items: flex-end;
+        position: absolute;
+        float: right;
+    }
+
+}

@@ -1,0 +1,47 @@
+.container {
+    width: 1920px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.content {
+    width: 924px;
+    height: 378px;
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #E6F0FF;
+    align-items: center;
+    
+}
+
+.left-content {
+    gap: 24px;
+    margin-left: 64px;
+    p {
+        width: 144px;
+        height: 30px;
+        font-family: "Montserrat";
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 30px;
+        text-align: left;
+    }
+
+    h1 {
+        width: 447px;
+        height: 96px;
+        font-family: "Montserrat";
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: -0.4000000059604645px;
+        text-align: left;
+    }
+
+    img{
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,41 @@
+.container {
+    width: 1920px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.content {
+    width: 1110px;
+    height: 349px;
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #121212;
+    align-items: center;
+    border-radius: 27px;
+}
+
+.left-content {
+    width: 426px;
+    height: 96px;
+    font-family: "Montserrat";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.4000000059604645px;
+    text-align: left;
+    color: #fff;
+    flex-direction: column;
+    margin-left: 96px;
+    margin-bottom: 85px;
+    img{
+        margin-top: 24px;
+    }
+}
+
+.right-content{
+    margin-left: 170px;
+    margin-top: 40px;
+}

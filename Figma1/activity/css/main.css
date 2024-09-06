@@ -1,0 +1,43 @@
+.container {
+    width: 1920px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.list-item {
+    width: 550px;
+    height: 65px;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    border-bottom: 1px solid gray;
+}
+
+.activity{
+    margin-top: 25px;
+}
+
+.list-h1{
+    margin-top: 20px;
+}
+
+.desc{
+    color: #807E7E;
+    margin-bottom: 30px;
+}
+
+.list {
+    width: 550px;
+    height: 75px;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    border-bottom: 1px solid gray;
+}

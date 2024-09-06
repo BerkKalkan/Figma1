@@ -1,0 +1,220 @@
+@import url("reset.css");
+
+body {
+    font-family: "Open Sans", sans-serif;
+    padding-left: 165px;
+}
+
+.header {
+    width: 1440px;
+    height: 150px;
+    padding: 80px 165px 22px 165px;
+    margin-left: 110px;
+}
+
+.headerDiv {
+    width: Fixed (1, 110px)px;
+    max-width: 70%;
+    height: Hug (169px)px;
+    top: 80px;
+    left: 165px;
+    gap: 16px;
+    opacity: 0px;
+    border-bottom: solid 1px;
+
+    .paylasan {
+        width: 400px;
+        height: 32px;
+        font-family: "Open Sans";
+        margin-bottom: 15px;
+    }
+}
+
+.baslik {
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.4000000059604645px;
+    text-align: left;
+    width: 750px;
+}
+
+.mainContent {
+    .mainImage {
+        width: 1110px;
+        height: 624;
+        margin-left: 230px;
+    }
+
+    .description {
+        font-family: "Open Sans";
+        font-size: 19px;
+        width: 1110px;
+        margin-left: 230px;
+        margin-top: 40px;
+        margin-bottom: 50px;
+        width: 1112px;
+        height: 336px;
+        top: 24px;
+        left: 166px;
+        gap: 0px;
+        opacity: 0px;
+        line-height: 26px;
+
+        .des1 {
+            margin-bottom: 50px;
+        }
+    }
+
+    .grater {
+        width: 1440px;
+        height: 500px;
+        display: flex;
+        align-items: flex-start;
+        gap: 16px;
+        margin-left: 230px;
+    }
+
+    .graterImage {
+        width: 540px;
+        height: 410px;
+    }
+
+    .graterDescription {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .graterDes {
+        width: 540px;
+        height: 100px;
+        font-family: "Montserrat";
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 30px;
+        text-align: left;
+
+    }
+
+    .graterDes1 {
+        font-size: 20px;
+        line-height: 26px;
+        font-family: "Open Sans";
+        width: 540px;
+        height: 225px;
+    }
+
+    .graterDes2 {
+        font-size: 20px;
+        line-height: 26px;
+        font-family: "Open Sans";
+        width: 540px;
+        height: 387px;
+    }
+
+    .dyn {
+        width: 1110px;
+        height: 347px;
+        background: #ECF1F8;
+        margin-left: 230px;
+        display: flex;
+        align-items: center;
+
+        .word {
+            width: 860px;
+            height: 111px;
+            gap: 0px;
+            opacity: 0px;
+            font-family: "Montserrat";
+            font-size: 30px;
+            font-weight: 700;
+            line-height: 37px;
+            letter-spacing: -0.3499999940395355px;
+            text-align: center;
+            margin-left: 120px;
+        }
+    }
+
+    .watch {
+        width: 1440px;
+        height: 90px;
+        margin-left: 230px;
+        margin-top: 30px;
+        flex-wrap: wrap;
+    }
+
+    .watch-container {
+        width: 1440px;
+        height: 547px;
+        flex-wrap: wrap;
+        display: flex;
+        align-items: center;
+    }
+
+    .watch-des {
+        width: 555px;
+        height: 547px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .watch-h1 {
+        width: 555px;
+        height: 100px;
+        font-family: "Montserrat";
+        font-size: 23px;
+        font-weight: 700;
+        line-height: 30px;
+        text-align: left;
+        display: flex;
+    }
+
+    .watch-image {
+        width: 555px;
+        height: 547px;
+        display: flex;
+        margin-bottom: 200px;
+
+        img {
+            width: 555px;
+            height: 547px;
+        }
+    }
+
+    .watch-para {
+        display: flex;
+        width: 546px;
+        height: 280px;
+        font-family: "Open Sans";
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: left;
+        padding-bottom: 150px;
+    }
+
+    .watch-video {
+        width: 1110px;
+        height: 624px;
+
+        h2 {
+            width: 194px;
+            height: 37px;
+            font-family: "Montserrat";
+            font-size: 30px;
+            font-weight: 700;
+            line-height: 37px;
+            letter-spacing: -0.3499999940395355px;
+            text-align: left;
+        }
+
+        img {
+            padding-top: 30px;
+            margin-bottom: 30px;
+        }
+    }
+
+
+}
